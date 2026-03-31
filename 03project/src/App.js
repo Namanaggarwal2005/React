@@ -10,7 +10,7 @@ function App() {
     </h1>
     <h2>Counter: {counter}</h2>
     <button onClick={() => {setCounter(counter + 1); console.log(counter);}}>Increment</button>
-    <button onClick={() => {setCounter(counter - 1); console.log(counter);}}>Decrement</button>
+    <button onClick={() => {if(counter>0){setCounter(counter - 1);}; console.log(counter);}}>Decrement</button>
     </>
   );
 }
