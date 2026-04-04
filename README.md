@@ -2,4 +2,4 @@
 
 
 --vite project
-1. npm install vite@latest
+1. npm create vite@latest
