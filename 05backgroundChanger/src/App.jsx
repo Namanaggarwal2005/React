@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 function App() {
-  const [color, setColor] = useState('blue');
+  const [color, setColor] = useState('white');
   return (
     <>
       <div className='w-full h-screen '
